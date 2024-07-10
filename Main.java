@@ -232,7 +232,6 @@ public class Main {
 
     public static void isEmpty(String str)throws EmptyStackException{
         if(str.isEmpty()){
-            // System.out.println("``You must type any string``"); 
             throw new EmptyStackException();
         }
     }
